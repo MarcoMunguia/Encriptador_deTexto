@@ -1,0 +1,22 @@
+-Encriptador de Texto
+El proyecto consiste en un programa web que permite a los usuarios encriptar y desencriptar texto basado en ciertas reglas. La interfaz está diseñada para que el usuario pueda ingresar un texto en una caja de texto, presionar un botón para encriptar el texto, y ver el resultado en otra caja de texto en la misma pantalla.
+
+-Funcionalidades Principales:
+Entrada de Texto:
+
+El usuario introduce un texto en un área de texto o campo de entrada.
+
+-Encriptación:
+El programa toma el texto ingresado y lo encripta utilizando reglas específicas de manipulación de cadenas.
+Por ejemplo, ciertas letras pueden ser sustituidas por otras cadenas de texto (como "a" por "ai", "e" por "enter", etc.).
+
+-Desencriptación:
+El usuario también puede desencriptar el texto encriptado, devolviendo el mensaje a su forma original.
+El proceso es inverso al de encriptación.
+
+-Validación:
+Para asegurar la consistencia, el programa valida que el texto de entrada no contenga mayúsculas ni caracteres especiales.
+Esta validación se basa en la tabla UNICODE para identificar los caracteres permitidos.
+
+-Copiar al Portapapeles:
+El usuario puede copiar el texto encriptado o desencriptado al portapapeles para su uso posterior, utilizando la API del portapapeles del navegador.
